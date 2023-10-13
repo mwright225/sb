@@ -24,12 +24,15 @@ body {
   color: #fff;
   font-weight: 500;
   width: 100%;
-  height: 30px;
+  height: 50px;
 }
 .ttlWrap button {
-  line-height: 11pt;
+  line-height: 21pt;
+  font-size: 21pt;
 }
 .ttl {  
+  font-size: 16pt;
+  font-weight: 400;
   width: fit-content !important;
   padding: 0 4px;
   text-align: center;
@@ -52,7 +55,7 @@ body {
 }
 .confWrap.NFC {
   display: grid;
-  grid-row: 2;
+  grid-row: 3;
 }
 .confWrap.NFC .Conference {
   grid-row: 1;
@@ -62,6 +65,10 @@ body {
 }
 .confWrap.NFC .Wildcard {
   grid-row: 3;
+}
+.confWrap.SB {
+  display: grid;
+  grid-row: 2;
 }
 
 .poWrap {
@@ -98,6 +105,7 @@ body {
   width: 41px;
   white-space: nowrap;
   overflow: hidden;
+  box-shadow: -1px 1px 1px #d9d9d9db;
 }
 
 .teamSeed {

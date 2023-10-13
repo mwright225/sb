@@ -6,7 +6,7 @@
 <div class="container">
   <div class="ttlWrap">
     <button  onclick="nInc('down')" style="padding-bottom: 2px; transform: rotate(180deg)">➤</button>
-    <div id='ttl' class="ttl">SB 50 <small>(2015-2016)</small></div>
+    <div onclick="console.log(playoff2)" id='ttl' class="ttl"></div>
     <button  onclick="nInc()">➤</button>
   </div>
   <div id="mainDiv">
@@ -17,8 +17,9 @@
 <script src="sb.js" integrity="" type="application/javascript" media="screen"></script>
 <script src="data/playoffs.js" integrity="" type="application/javascript" media="screen"></script>
 <script>
+  let playoff2 = {};
   const playoff = playoffs()
-  var currNum = 50
-  test(currNum)
+  var currNum = 1
+  makePlayoffs(currNum)
 </script>
 </body>
