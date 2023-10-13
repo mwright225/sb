@@ -15,6 +15,7 @@
   column-gap: 7px;
   align-items: center;
   margin-bottom: 15px;
+  flex-wrap: nowrap;
 }
 .ttl {
   width: 115px;
