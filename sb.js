@@ -1,11 +1,13 @@
 function nInc(dir='up') {
   if (dir === 'up') {
+    if (Object.keys(playoff).length + 1 == currNum) { return; }
     currNum++;
   } else {
+    if (1 == currNum) { return; }
     currNum--;
   }
   let div = document.getElementById('ttl');
-  div.innerHTML = currNum;
+  div.innerHTML = `SB ${currNum} <small>(${currNum + 1965}-${currNum + 1966})</small>`;
   console.log(currNum)
   test(currNum)
 }

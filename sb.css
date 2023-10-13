@@ -1,12 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #mainDiv {
    display: flex;
    justify-content: center;
    font-family: Roboto;
    font-weight: 100;
 }
-.ttl {
-  color: red;
+.ttlWrap {
+  display: flex;
+  column-gap: 7px;
+  align-items: center;
+  margin-bottom: 15px;
 }
+.ttl {
+  width: 115px;
+  overflow: hidden;
+  text-align: center;
+}
+
 
 .confWrap.AFC {
   display: grid;
