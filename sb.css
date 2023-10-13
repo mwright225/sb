@@ -20,6 +20,7 @@
   width: 115px;
   overflow: hidden;
   text-align: center;
+  white-space: nowrap;
 }
 
 
