@@ -1,20 +1,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">  
 
 <link rel="stylesheet" href="sb.css" media="screen"> 
-
- <meta name="viewport" content="width=device-width, initial-scale=1" />  
+<meta name="viewport" content="width=device-width, initial-scale=1" />  
 <body>
-<div onclick="nInc()" >⬆</div>
-<div id='ttl' class="ttl">50</div>
-<div onclick="nInc('down')">⬇</div>
-
-<div id="mainDiv">
-
+<div class="container">
+  <div class="ttlWrap">
+    <button onclick="nInc('down')" >⬅︎</button>
+    <div id='ttl' class="ttl">SB 50 <small>(2015-2016)</small></div>
+    <button style="transform: rotate(180deg)" onclick="nInc()">⬅︎</button>
+  </div>
+  <div id="mainDiv">
+  
+  </div>
 </div>
 
 <script src="sb.js" integrity="" type="application/javascript" media="screen"></script>
 <script src="data/playoffs.js" integrity="" type="application/javascript" media="screen"></script>
-
 <script>
   const playoff = playoffs()
   var currNum = 50
