@@ -1,0 +1,102 @@
+#mainDiv {
+   display: flex;
+   justify-content: center;
+   font-family: Roboto;
+   font-weight: 100;
+}
+.ttl {
+  color: red;
+}
+
+.confWrap.AFC {
+  display: grid;
+  grid-row: 1;
+}
+.confWrap.AFC .Conference {
+  grid-row: 3;
+}
+.confWrap.AFC .Division {
+  grid-row: 2;
+}
+.confWrap.AFC .Wildcard {
+  grid-row: 1;
+}
+.confWrap.NFC {
+  display: grid;
+  grid-row: 2;
+}
+.confWrap.NFC .Conference {
+  grid-row: 1;
+}
+.confWrap.NFC .Division {
+  grid-row: 2;
+}
+.confWrap.NFC .Wildcard {
+  grid-row: 3;
+}
+
+.poWrap {
+  display: grid;
+  width: fit-content;
+}
+.roundContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.roundWrap {
+  display: flex;
+}
+.gameWrap {
+  display: block;
+  margin: 0 7px;
+}
+
+.teamContainer {
+  display: inline-block;
+}
+
+.poImg {
+  height: 30px;
+}
+
+.teamWrap {
+  display: block;
+  background: #0000000a;
+  border-radius: 4px;
+  padding: 2px;
+  height: 26px;
+  width: 41px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.teamSeed {
+  display: inline-block;
+  vertical-align: top;
+  height: 12px;
+  width: 12px;
+  background: #0c00ff;
+  color: #fff;
+  font-size: 8px; 
+  text-align: center;
+  font-weight: 400;
+  line-height: 12px;
+  border-radius: 10px; 
+}
+.teamIcon {
+  display: inline-block;
+  transform: translate(-11px, 2px);
+}
+.teamRecord {
+  display: inline-block;
+  transform: translate(-27px, 0px);
+  vertical-align: top;
+  font-size: 6pt;
+  font-weight: 300;
+}
+
+.scoreWrap {
+  width: 45px;
+  text-align: center;
+}
