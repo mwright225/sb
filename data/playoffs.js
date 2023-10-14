@@ -7840,13 +7840,13 @@ return {
     "SB": {
       "wTeam": "New England Patriots",
       "wID": "Patriots",
-      "wScore": "37",
+      "wScore": "13",
       "wSeed": "2",
       "wConf": "NFC",
       "wRecord": "11-5",
       "lTeam": "Los Angeles Rams",
       "lID": "Rams",
-      "lScore": "",
+      "lScore": "3",
       "lSeed": "2",         
       "lRecord": "13-3"
     }
