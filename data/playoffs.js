@@ -3501,6 +3501,7 @@ return {
       "wTeam": "Dallas Cowboys",
       "wID": "Cowboys",
       "wScore": "52",
+      "wRecord": "13-3",
       "lTeam": "Buffalo Bills",
       "lID": "Bills",
       "lScore": "17",
@@ -3839,6 +3840,20 @@ return {
           "wRecord": "11-5"
         }
       ]
+    },
+    "SB": {
+      "wTeam": "San Francisco 49ers",
+      "wID": "49ers",
+      "wScore": "38",
+      "wSeed": "1",
+      "wConf": "NFC",
+      "wRecord": "13-3",
+      "lTeam": "San Diego Chargers",
+      "lID": "Chargers",
+      "lScore": "17",
+      "lSeed": "2",
+      "lConf": "AFC",
+      "lRecord": "11-5"
     }
   },
   "30": {
@@ -4969,10 +4984,10 @@ return {
           "lScore": "7",
           "lSeed": "3",
           "lConf": "NFC",
-          "lRecord": "12",
+          "lRecord": "12-4",
           "wSeed": "6",
           "wConf": "NFC",
-          "wRecord": "9"
+          "wRecord": "9-6-1"
         },
         {
           "wTeam": "San Francisco 49ers",
@@ -4983,10 +4998,10 @@ return {
           "lScore": "38",
           "wSeed": "4",
           "wConf": "NFC",
-          "wRecord": "10",
+          "wRecord": "10-6",
           "lSeed": "5",
           "lConf": "NFC",
-          "lRecord": "10"
+          "lRecord": "10-6"
         }
       ],
       "Division": [
@@ -4999,10 +5014,10 @@ return {
           "lScore": "6",
           "wSeed": "1",
           "wConf": "NFC",
-          "wRecord": "12",
+          "wRecord": "12-4",
           "lSeed": "6",
           "lConf": "NFC",
-          "lRecord": "9"
+          "lRecord": "9-6-1"
         },
         {
           "wTeam": "Tampa Bay Buccaneers",
@@ -5013,10 +5028,10 @@ return {
           "lScore": "6",
           "wSeed": "2",
           "wConf": "NFC",
-          "wRecord": "12",
+          "wRecord": "12-4",
           "lSeed": "4",
           "lConf": "NFC",
-          "lRecord": "10"
+          "lRecord": "10-6"
         }
       ],
       "Conference": [
@@ -5029,10 +5044,10 @@ return {
           "lScore": "10",
           "lSeed": "1",
           "lConf": "NFC",
-          "lRecord": "12",
+          "lRecord": "12-4",
           "wSeed": "2",
           "wConf": "NFC",
-          "wRecord": "12"
+          "wRecord": "12-4"
         }
       ]
     },
@@ -5047,10 +5062,10 @@ return {
           "lScore": "0",
           "wSeed": "4",
           "wConf": "AFC",
-          "wRecord": "9",
+          "wRecord": "9-7",
           "lSeed": "5",
           "lConf": "AFC",
-          "lRecord": "10"
+          "lRecord": "10-6"
         },
         {
           "wTeam": "Pittsburgh Steelers",
@@ -5061,10 +5076,10 @@ return {
           "lScore": "33",
           "wSeed": "3",
           "wConf": "AFC",
-          "wRecord": "10",
+          "wRecord": "10-6",
           "lSeed": "6",
           "lConf": "AFC",
-          "lRecord": "9"
+          "lRecord": "9-7"
         }
       ],
       "Division": [
@@ -5077,10 +5092,10 @@ return {
           "lScore": "31",
           "wSeed": "2",
           "wConf": "AFC",
-          "wRecord": "11",
+          "wRecord": "11-5",
           "lSeed": "3",
           "lConf": "AFC",
-          "lRecord": "10"
+          "lRecord": "10-5-1"
         },
         {
           "wTeam": "Oakland Raiders",
@@ -5091,10 +5106,10 @@ return {
           "lScore": "10",
           "wSeed": "1",
           "wConf": "AFC",
-          "wRecord": "11",
+          "wRecord": "11-5",
           "lSeed": "4",
           "lConf": "AFC",
-          "lRecord": "9"
+          "lRecord": "9-7"
         }
       ],
       "Conference": [
@@ -5107,10 +5122,10 @@ return {
           "lScore": "24",
           "wSeed": "1",
           "wConf": "AFC",
-          "wRecord": "11",
+          "wRecord": "11-5",
           "lSeed": "2",
           "lConf": "AFC",
-          "lRecord": "11"
+          "lRecord": "11-5"
         }
       ]
     },
@@ -5123,10 +5138,10 @@ return {
       "lScore": "21",
       "wSeed": "2",
       "wConf": "NFC",
-      "wRecord": "12",
+      "wRecord": "12-4",
       "lSeed": "1",
       "lConf": "AFC",
-      "lRecord": "11"
+      "lRecord": "11-5"
     }
   },
   "38": {
@@ -5644,6 +5659,134 @@ return {
       "wConf": "AFC",
       "wRecord": "11-5"
     }
+  },
+  "41": {
+  "NFC": {
+    "Wildcard": [
+      {
+        "wID": "Seahawks",
+        "wScore": "21",
+        "wSeed": "4",
+        "wRecord": "9-7",
+        "lID": "Cowboys",
+        "lScore": "20",
+        "lSeed": "5",
+        "lRecord": "9-7"
+      },
+      {
+        "wID": "Eagles",
+        "wScore": "23",
+        "wSeed": "3",
+        "wRecord": "10-6",
+        "lID": "Giants",
+        "lScore": "20",
+        "lSeed": "6",
+        "lRecord": "8-8"
+      }
+    ],
+    "Division": [
+      {
+        "wID": "Saints",
+        "wScore": "27",
+        "wSeed": "2",
+        "wRecord": "10-6",
+        "lID": "Eagles",
+        "lScore": "24",
+        "lSeed": "3",
+        "lRecord": "10-6"
+      },
+      {
+        "wID": "Bears",
+        "wScore": "27",
+        "wSeed": "1",
+        "wRecord": "13-3",
+        "lID": "Seahawks",
+        "lScore": "24",
+        "lSeed": "4",
+        "lRecord": "9-7"
+      }
+    ],
+    "Conference": [
+      {
+        "wID": "Bears",
+        "wScore": "39",
+        "wSeed": "1",
+        "wRecord": "13-3",
+        "lID": "Saints",
+        "lScore": "14",
+        "lSeed": "2",
+        "lRecord": "10-6"
+      }
+    ]
+  },
+  "AFC": {
+    "Wildcard": [
+      {
+        "wID": "Colts",
+        "wScore": "23",
+        "wSeed": "3",
+        "wRecord": "12-4",
+        "lID": "Chiefs",
+        "lScore": "8",
+        "lSeed": "6",
+        "lRecord": "9-7"
+      },
+      {
+        "wID": "Patriots",
+        "wScore": "37",
+        "wSeed": "4",
+        "wRecord": "12-4",
+        "lID": "Jets",
+        "lScore": "16",
+        "lSeed": "5",
+        "lRecord": "10-6"
+      }
+    ],
+    "Division": [
+      {
+        "wID": "Colts",
+        "wScore": "15",
+        "wSeed": "3",
+        "wRecord": "12-4",
+        "lID": "Ravens",
+        "lScore": "6",
+        "lSeed": "2",
+        "lRecord": "13-3"
+      },
+      {
+        "wID": "Patriots",
+        "wScore": "24",
+        "wSeed": "4",
+        "wRecord": "12-4",
+        "lID": "Chargers",
+        "lScore": "21",
+        "lSeed": "1",
+        "lRecord": "14-2"
+      }
+    ],
+    "Conference": [
+      {
+        "wID": "Colts",
+        "wScore": "38",
+        "wSeed": "3",
+        "wRecord": "12-4",
+        "lID": "Patriots",
+        "lScore": "44",
+        "lSeed": "4",
+        "lRecord": "12-4"
+      }
+    ]
+  },
+  "SB": {
+    "wID": "Colts",
+    "wScore": "29",
+    "wSeed": "3",
+    "wRecord": "12-4",
+    "lID": "Bears",
+    "lScore": "17",
+    "lSeed": "1",
+    "lRecord": "13-3"
+  }   
   },
   "42": {
     "NFC": {
@@ -7693,6 +7836,19 @@ return {
           "wRecord": "13-3"
         }
       ]
+    },
+    "SB": {
+      "wTeam": "New England Patriots",
+      "wID": "Patriots",
+      "wScore": "37",
+      "wSeed": "2",
+      "wConf": "NFC",
+      "wRecord": "11-5",
+      "lTeam": "Los Angeles Rams",
+      "lID": "Rams",
+      "lScore": "",
+      "lSeed": "2",         
+      "lRecord": "13-3"
     }
   },
   "54": {
@@ -7851,6 +8007,18 @@ return {
           "lRecord": "13-3"
         }
       ]
+    },
+    "SB": {
+      "wTeam": "Kansas City Chiefs",
+      "wID": "Chiefs",
+      "wScore": "31",
+      "wSeed": "2",
+      "wRecord": "12-4",
+      "lTeam": "San Francisco 49ers",
+      "lID": "49ers",
+      "lScore": "20",
+      "lSeed": "1",         
+      "lRecord": "13-3"
     }
   },
   "55": {
@@ -7935,12 +8103,12 @@ return {
           "wTeam": "Kansas City Chiefs",
           "wID": "Chiefs",
           "wScore": "30",
+          "wConf": "NFC",
+          "wSeed": "1",
+          "wRecord": "14-2",
           "lTeam": "Bills",
           "lID": "Bills",
-          "lScore": "24",
-          "wSeed": "1",
-          "wConf": "NFC",
-          "wRecord": "14-2",
+          "lScore": "24",                    
           "lSeed": "2",
           "lConf": "NFC",
           "lRecord": "13-3"
@@ -8027,17 +8195,28 @@ return {
           "wTeam": "Tampa Bay Buccaneers",
           "wID": "Buccaneers",
           "wScore": "31",
+          "wSeed": "5",          
+          "wRecord": "11-5",
           "lTeam": "Packers",
           "lID": "Packers",
           "lScore": "26",
           "lSeed": "1",
           "lConf": "NFC",
-          "lRecord": "13-3",
-          "wSeed": "5",
-          "wConf": "NFC",
-          "wRecord": "11-5"
+          "lRecord": "13-3"         
         }
       ]
+    },
+    "SB": {
+      "wTeam": "Tampa Bay Buccaneers",
+      "wID": "Buccaneers",
+      "wScore": "31",
+      "wSeed": "5",          
+      "wRecord": "11-5",
+      "lTeam": "Kansas City Chiefs",
+      "lID": "Chiefs",
+      "lScore": "9",
+      "lSeed": "1",
+      "lRecord": "14-2"
     }
   },
   "56": {
@@ -8176,9 +8355,19 @@ return {
           "lRecord": "12-5"
         }
       ]
+    },
+    "SB": {
+      "wID": "Rams",
+      "wScore": "23",
+      "wSeed": "4",
+      "wRecord": "12-5",
+      "lID": "Bengals",
+      "lScore": "20",
+      "lSeed": "4",
+      "lRecord": "10-7"
     }
   },
-  "57":{
+  "57": {
     "NFC": {
       "Wildcard": [
         {
@@ -8215,26 +8404,37 @@ return {
       "Division": [
         {
           "wID": "49ers",
-          "wScore": "",
+          "wScore": "19",
           "wSeed": "2",
           "wRecord": "13-4",
           "lID": "Cowboys",
-          "lScore": "",
+          "lScore": "12",
           "lSeed": "5",
           "lRecord": "12-5"
         },
         {
           "wID": "Eagles",
-          "wScore": "",
+          "wScore": "38",
           "wSeed": "1",
           "wRecord": "14-3",
           "lID": "Giants",
-          "lScore": "",
+          "lScore": "7",
           "lSeed": "6",
           "lRecord": "9-7"
         }
       ],
-      "Conference": []
+      "Conference": [
+        {
+          "wID": "Eagles",
+          "wScore": "31",
+          "wSeed": "1",
+          "wRecord": "14-3",
+          "lID": "49ers",
+          "lScore": "7",
+          "lSeed": "2",
+          "lRecord": "13-4"
+        }
+      ]
     },
     "AFC": {
       "Wildcard": [
@@ -8272,26 +8472,47 @@ return {
       "Division": [
         {
           "wID": "Chiefs",
-          "wScore": "",
+          "wScore": "27",
           "wSeed": "1",
           "wRecord": "14-3",
           "lID": "Jaguars",
-          "lScore": "",
+          "lScore": "20",
           "lSeed": "4",
           "lRecord": "9-8"
         },
         {
-          "wID": "Bills",
-          "wScore": "",
-          "wSeed": "2",
-          "wRecord": "13-3",
-          "lID": "Bengals",
-          "lScore": "",
-          "lSeed": "3",
-          "lRecord": "12-4"
+          "wID": "Bengals",
+          "wScore": "27",
+          "wSeed": "3",
+          "wRecord": "12-4 13-3",
+          "lID": "Bills",
+          "lScore": "10",
+          "lSeed": "2",
+          "lRecord": "13-3"
         }
       ],
-      "Conference": []
+      "Conference": [
+        {
+          "wID": "Chiefs",
+          "wScore": "23",
+          "wSeed": "1",
+          "wRecord": "14-3",
+          "lID": "Bengals",
+          "lScore": "20",
+          "lSeed": "2",
+          "lRecord": "13-3"
+        }
+      ]
+    },
+    "SB": {
+      "wID": "Chiefs",
+      "wScore": "38",
+      "wSeed": "1",
+      "wRecord": "14-3",
+      "lID": "Eagles",
+      "lScore": "35",
+      "lSeed": "1",
+      "lRecord": "14-3"
     }
   }
 }
