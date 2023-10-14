@@ -47,7 +47,7 @@ body {
   background-size: contain;
   background-position: 50% 0;
   background-repeat: no-repeat;
-  opacity: .1;
+  opacity: .065;
 }
 .confWrap.AFC:before {
   background-image: url('img/AFC.png');
@@ -124,13 +124,15 @@ body {
   width: 41px;
   white-space: nowrap;
   overflow: hidden;
-  box-shadow: -1px 1px 1px #d9d9d9db;
+  xbox-shadow: -1px 1px 1px #d9d9d9db;
 }
 .confWrap.AFC .teamWrap {
   background: #ff00000f;
+  border: 1px solid #ff040447;
 }
 .confWrap.NFC .teamWrap {
   background: #0800ff0f;
+  border: 1px solid #0000ff26
 }
 
 .teamSeed {
