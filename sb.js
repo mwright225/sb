@@ -1,10 +1,10 @@
 function nInc(dir='up') {
   if (dir === 'up') {
-    if (Object.keys(playoff).length + 1 == currNum) { return; }
-    currNum++;
+    if (Object.keys(playoff).length + 1 == currNum) { currNum = 1; }
+    else { currNum++; }
   } else {
-    if (1 == currNum) { return; }
-    currNum--;
+    if (1 == currNum) { currNum = Object.keys(playoff).length + 1; }
+    else { currNum--; }
   }
     
   makePlayoffs(currNum)

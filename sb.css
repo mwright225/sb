@@ -43,6 +43,7 @@ body {
 .confWrap.AFC {
   display: grid;
   grid-row: 1;
+  background: #ff00000d;
 }
 .confWrap.AFC .Conference {
   grid-row: 3;
@@ -56,6 +57,7 @@ body {
 .confWrap.NFC {
   display: grid;
   grid-row: 3;
+  background: #0072ff0f;
 }
 .confWrap.NFC .Conference {
   grid-row: 1;
@@ -127,7 +129,7 @@ body {
 }
 .teamRecord {
   display: inline-block;
-  transform: translate(-27px, 0px);
+  transform: translate(-28px, 0px);
   vertical-align: top;
   font-size: 6pt;
   font-weight: 300;
