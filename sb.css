@@ -39,11 +39,27 @@ body {
   white-space: nowrap;
 }
 
-
+.confWrap:before {
+  content: ' ';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  opacity: .1;
+}
+.confWrap.AFC:before {
+  background-image: url('img/AFC.png');
+}
+.confWrap.NFC:before {
+  background-image: url('img/NFC.png');
+}
 .confWrap.AFC {
   display: grid;
   grid-row: 1;
-  background: #ff00000d;
+  background: #ff000005;
+  position: relative;
 }
 .confWrap.AFC .Conference {
   grid-row: 3;
@@ -57,7 +73,8 @@ body {
 .confWrap.NFC {
   display: grid;
   grid-row: 3;
-  background: #0072ff0f;
+  background: #0072ff05;
+  position: relative;
 }
 .confWrap.NFC .Conference {
   grid-row: 1;
@@ -109,6 +126,12 @@ body {
   overflow: hidden;
   box-shadow: -1px 1px 1px #d9d9d9db;
 }
+.confWrap.AFC .teamWrap {
+  background: #ff00000f;
+}
+.confWrap.NFC .teamWrap {
+  background: #0800ff0f;
+}
 
 .teamSeed {
   display: inline-block;
@@ -133,9 +156,12 @@ body {
   vertical-align: top;
   font-size: 6pt;
   font-weight: 300;
+  text-shadow: 0px 0px 1px #d9cbcb;
 }
 
 .scoreWrap {
   width: 45px;
+  font-weight: 500;
+  color: #00000087;
   text-align: center;
 }
