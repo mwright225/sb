@@ -27,7 +27,12 @@
   const playoff = playoffs()
   var currNum = Object.keys(playoff).length;
   var mode = 'sb';
+  
   makeMainDiv();
+  if (document.documentElement.requestFullscreen) {
+    document.documentElement.requestFullscreen()
+  }
+
   //makePlayoffs(currNum)
   //makeSuperBowls()
 </script>
