@@ -6,8 +6,52 @@ function nInc(dir='up') {
     if (1 == currNum) { currNum = Object.keys(playoff).length + 1; }
     else { currNum--; }
   }
+  makeMainDiv();  
+  //makePlayoffs(currNum)
+}
+function sbDrilldown(n) {
+  mode = 'po';
+  currNum = n;
+  makeMainDiv()
+}
+function backBtn() {
+  mode = 'sb';
+  makeMainDiv()
+}
+function makeMainDiv() {
+  if (mode === 'sb') {
+    makeSuperBowls();
+    document.getElementById('poTitle').style.display = 'none';
+    document.getElementById('sbTitle').style.display = 'flex';
+    document.getElementById('footer').style.display = 'none';
+    document.getElementById('mainDiv').style.height = 'calc(100vh - 50px)';
     
-  makePlayoffs(currNum)
+  } else {
+    makePlayoffs(currNum);
+    document.getElementById('poTitle').style.display = 'flex';
+    document.getElementById('sbTitle').style.display = 'none';
+    document.getElementById('footer').style.display = 'flex';
+    document.getElementById('mainDiv').style.height = 'calc(100vh - 100px)';
+    
+  }
+}
+function makeSuperBowls() {
+  let h = '<div class="sbWrap">';
+  Object.keys(playoff).map(yr => {
+    h += `
+    <div onclick="sbDrilldown(${yr})" class="sbGameWrap">
+      <div>
+        ${numToRoman(yr)}
+      </div>`;
+      
+    
+    h += makeGame(playoff[yr].SB);
+    h += '</div>';
+  })
+  h += '</div>';
+  let div = document.getElementById('mainDiv');
+  div.innerHTML = h;
+  
 }
 function makePlayoffs(yr) {  
 
@@ -16,7 +60,7 @@ function makePlayoffs(yr) {
   
   let ttldiv = document.getElementById('ttl');
   ttldiv.innerHTML = `SB ${yr} <small>(${yr + 1965}-${yr + 1966})</small>`;
-
+  
     
   yrData.SB = {
     SB: [yrData.SB]
@@ -86,6 +130,17 @@ function makeGame(game) {
   
  return h;
   
+}
+function numToRoman(yr) {
+  yr = yr+'';
+  let n1 = ['','I','II','III','IV','V','VI','VII','VIII','IX','X'];
+  let n2 = ['','X','XX','XXX','XL','L','LX','LXX','LXXX','XC'];
+  if (yr.length == 1) {
+    return n1[yr];
+  } else {
+    return n2[yr.substr(0,1)] + n1[yr.substr(1,1)];
+  }
+ 
 }
 function editJson(yr) {
   let yrData = JSON.parse(JSON.stringify(playoff[yr]));
