@@ -90,6 +90,9 @@ button {
   row-gap: 10px;
   padding-top: 10px;
 }
+.sbSubTtl {
+  font-size: 9pt;
+}
 .sbGameWrap {
   display: flex;
   flex-direction: column;

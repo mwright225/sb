@@ -23,15 +23,11 @@ function makeMainDiv() {
     makeSuperBowls();
     document.getElementById('poTitle').style.display = 'none';
     document.getElementById('sbTitle').style.display = 'flex';
-    //document.getElementById('footer').style.display = 'none';
-    //document.getElementById('mainDiv').style.height = 'calc(100vh - 50px)';
     
   } else {
     makePlayoffs(currNum);
     document.getElementById('poTitle').style.display = 'flex';
     document.getElementById('sbTitle').style.display = 'none';
-    //document.getElementById('footer').style.display = 'flex';
-    //document.getElementById('mainDiv').style.height = 'calc(100vh - 100px)';
     
     document.getElementById('ttl') .innerHTML = `SB ${numToRoman(currNum)}`;
     
@@ -42,9 +38,8 @@ function makeSuperBowls() {
   Object.keys(playoff).map(yr => {
     h += `
     <div onclick="sbDrilldown(${yr})" class="sbGameWrap">
-      <div>
-        ${numToRoman(yr)}
-      </div>`;
+      <div>${numToRoman(yr)}</div>
+      <div class="sbSubTtl">${yr} (${+yr + 1965}-${+yr + 1966})</div>`;
       
     
     h += makeGame(playoff[yr].SB);
