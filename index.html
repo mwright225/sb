@@ -4,20 +4,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />  
 <body>
 <div class="container">
+
   <div id="poTitle" class="ttlWrap">
-    <button  onclick="nInc('down')" style="padding-bottom: 2px; transform: rotate(180deg)">➤</button>
-    <div onclick="console.log(playoff2)" id='ttl' class="ttl"></div>
-    <button  onclick="nInc()">➤</button>
+    <button class="backBtn" onclick="backBtn()">🔙</button>
+    <div class="btnWrap">
+      <button class="navBtn" onclick="nInc('down')" style="padding-bottom: 2px; transform: rotate(180deg)">➤</button>
+      <div onclick="console.log(playoff2)" id='ttl' class="ttl"></div>
+      <button class="navBtn" onclick="nInc()">➤</button>
+    </div>
+    <div></div>
   </div>
+  
   <div id="sbTitle" class="ttlWrapSB">
     Super Bowl History
   </div>
-  <div id="mainDiv">
   
-  </div>
-  <div id="footer">
-    <button onclick="backBtn()">Back</button>
-  </div>
+  <div id="mainDiv"> </div>
+  
 </div>
 
 <script src="sb.js" integrity="" type="application/javascript" media="screen"></script>
@@ -30,7 +33,7 @@
   
   makeMainDiv();
   if (document.documentElement.requestFullscreen) {
-    document.documentElement.requestFullscreen()
+    document.documentElement.requestFullscreen({ navigationUI: "show" })
   }
 
   //makePlayoffs(currNum)

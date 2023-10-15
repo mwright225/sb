@@ -23,15 +23,17 @@ function makeMainDiv() {
     makeSuperBowls();
     document.getElementById('poTitle').style.display = 'none';
     document.getElementById('sbTitle').style.display = 'flex';
-    document.getElementById('footer').style.display = 'none';
-    document.getElementById('mainDiv').style.height = 'calc(100vh - 50px)';
+    //document.getElementById('footer').style.display = 'none';
+    //document.getElementById('mainDiv').style.height = 'calc(100vh - 50px)';
     
   } else {
     makePlayoffs(currNum);
     document.getElementById('poTitle').style.display = 'flex';
     document.getElementById('sbTitle').style.display = 'none';
-    document.getElementById('footer').style.display = 'flex';
-    document.getElementById('mainDiv').style.height = 'calc(100vh - 100px)';
+    //document.getElementById('footer').style.display = 'flex';
+    //document.getElementById('mainDiv').style.height = 'calc(100vh - 100px)';
+    
+    document.getElementById('ttl') .innerHTML = `SB ${numToRoman(currNum)}`;
     
   }
 }
@@ -58,10 +60,8 @@ function makePlayoffs(yr) {
   let yrData = JSON.parse(JSON.stringify(playoff[yr]));
   if (!yrData) { return; }
   
-  let ttldiv = document.getElementById('ttl');
-  ttldiv.innerHTML = `SB ${yr} <small>(${yr + 1965}-${yr + 1966})</small>`;
-  
-    
+  //ttldiv.innerHTML = `SB ${yr} <small>(${yr + 1965}-${yr + 1966})</small>`;
+     
   yrData.SB = {
     SB: [yrData.SB]
   }
